@@ -10,7 +10,6 @@
 		41CA2D2F94F2391C4BC5CC83 /* Pods_Bullz_And_Bearz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A546EDA53C48467D0C6125 /* Pods_Bullz_And_Bearz.framework */; };
 		D01A277D2541A2B200857472 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01A277C2541A2B100857472 /* DateExt.swift */; };
 		D01A27802541A39300857472 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01A277F2541A39300857472 /* NewsCell.swift */; };
-		D0716E612541EA98003BBFE0 /* CSV in Frameworks */ = {isa = PBXBuildFile; productRef = D0716E602541EA98003BBFE0 /* CSV */; };
 		D08E81D42541F5FE00BF1870 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E81D32541F5FE00BF1870 /* Words.swift */; };
 		D0ACA34F2540A5330097CCE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACA34E2540A5330097CCE0 /* AppDelegate.swift */; };
 		D0ACA3512540A5330097CCE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACA3502540A5330097CCE0 /* SceneDelegate.swift */; };
@@ -53,7 +52,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				41CA2D2F94F2391C4BC5CC83 /* Pods_Bullz_And_Bearz.framework in Frameworks */,
-				D0716E612541EA98003BBFE0 /* CSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +166,6 @@
 			);
 			name = "Bullz And Bearz";
 			packageProductDependencies = (
-				D0716E602541EA98003BBFE0 /* CSV */,
 			);
 			productName = "Bullz And Bearz";
 			productReference = D0ACA34B2540A5330097CCE0 /* Bullz And Bearz.app */;
@@ -494,14 +491,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D0716E602541EA98003BBFE0 /* CSV */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D0716E5F2541EA98003BBFE0 /* XCRemoteSwiftPackageReference "CSV.swift" */;
-			productName = CSV;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0ACA3432540A5320097CCE0 /* Project object */;
 }
