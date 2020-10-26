@@ -1,5 +1,7 @@
 # Bullz and Bearz
 
+**HackTX 2020 - Finalists**
+
 Code snippets and supporting documentation for the Bullz and Bearz project by The Mistfits for HackTX
 
 API Root: https://bearz-and-bullz.herokuapp.com/
